@@ -3,7 +3,7 @@ const router = express.Router();
 const createError = require('http-errors');
 
 // Products Array
-const products = [{ id: '1', name: 'Playstation 5', inStock: false },{ id: '2', name: 'Steam Desk', inStock: true },{ id: '3', name: 'Nintendo Switch', inStock: false }];
+const products = [{ id: '1', name: 'Playstation 5', inStock: false },{ id: '2', name: 'Steam Desk Ultimate', inStock: true },{ id: '3', name: 'Nintendo Switch', inStock: false }];
 
 // GET / => array of items
 router.get('/', (req, res) => {
